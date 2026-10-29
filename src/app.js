@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/health', (req, res) => {
-    res.json({ status: 'ok' });
+    res.json({ status: 'funcionando' });
 });
 
 app.get('/api/tareas', (req, res) => {
